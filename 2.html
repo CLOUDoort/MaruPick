@@ -1,29 +1,41 @@
 <!doctype html>
 <html>
+
 <head>
   <title>마루픽_피자</title>
   <meta charset="utf-8">
+  <style>
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2H4G87535W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2H4G87535W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-2H4G87535W');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2H4G87535W');
+  </script>
 </head>
+
 <body>
   <h1><a href="index.html">마루픽</a></h1>
-  <ol>
-    <li><a href="1.html">치킨</a></li>
-    <li><a href="2.html">피자</a></li>
+  <ul>
+    <li><a href="1.html" class="saw">치킨</a></li>
+    <li><a href="2.html" class="saw" id="active">피자</a></li>
     <li><a href="3.html">분식</a></li>
     <li><a href="4.html">한식</a></li>
-  </ol>
+  </ul>
   <h2>피자</h2>
   <p>여러 피자 브랜드
-  ex) 도미노, 피자헛, 파파존스...</P>
-    <img src="pizza.jpg" width="50%" alt="피자" title="피자">
+    ex) 도미노, 피자헛, 파파존스...</P>
+  <img src="pizza.jpg" width="50%" alt="피자" title="피자">
 </body>
+
 </html>
